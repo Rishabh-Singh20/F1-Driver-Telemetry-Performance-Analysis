@@ -110,5 +110,5 @@ cbar.set_ticks([1.5, 2.5])
 cbar.set_ticklabels([driver1, driver2])
 
 # Save and show the plot
-plt.savefig("2024_driver1_driver2.png", dpi=500)
+plt.savefig(f"{year}_{driver1}_{driver2}.png", dpi=500)
 plt.show()
